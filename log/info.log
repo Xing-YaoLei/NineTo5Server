@@ -1,0 +1,67 @@
+[9to5] 2023/07/11 - 18:01:58.620	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:36	Shutdown Server ...
+[9to5] 2023/07/11 - 18:01:58.621	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/11 - 18:01:58.674	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:36	Shutdown Server ...
+[9to5] 2023/07/11 - 18:01:58.674	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/11 - 18:02:19.268	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:36	Shutdown Server ...
+[9to5] 2023/07/11 - 18:02:19.269	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/11 - 18:09:55.187	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:36	Shutdown Server ...
+[9to5] 2023/07/11 - 18:09:55.189	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/12 - 14:05:06.638	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:66
+[error] failed to initialize database, got error dial tcp 124.222.251.9:3306: connect: operation timed out
+
+[9to5] 2023/07/12 - 16:19:38.178	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:66
+[error] failed to initialize database, got error dial tcp 124.222.251.9:3306: connect: operation timed out
+
+[9to5] 2023/07/12 - 16:21:18.500	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:66
+[error] failed to initialize database, got error dial tcp 124.222.251.9:3306: connect: operation timed out
+
+[9to5] 2023/07/12 - 16:23:54.520	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:66
+[error] failed to initialize database, got error dial tcp 124.222.251.9:3306: connect: operation timed out
+
+[9to5] 2023/07/12 - 16:27:08.428	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:66
+[error] failed to initialize database, got error dial tcp 124.222.251.9:3306: connect: operation timed out
+
+[9to5] 2023/07/12 - 16:48:54.451	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:66
+[error] failed to initialize database, got error dial tcp 124.222.251.9:3306: connect: operation timed out
+
+[9to5] 2023/07/12 - 16:51:02.489	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:66
+[error] failed to initialize database, got error dial tcp 124.222.251.9:3306: connect: operation timed out
+
+[9to5] 2023/07/12 - 16:51:14.020	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/07/12 - 16:51:14.021	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:14	register swagger handler
+[9to5] 2023/07/12 - 16:51:59.144	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/07/12 - 16:51:59.145	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/12 - 16:52:01.249	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/07/12 - 16:52:01.249	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:14	register swagger handler
+[9to5] 2023/07/12 - 16:59:41.565	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/health	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000210417}
+[9to5] 2023/07/12 - 17:03:54.377	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000022625}
+[9to5] 2023/07/12 - 17:03:54.418	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/favicon.ico	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000001}
+[9to5] 2023/07/12 - 17:03:58.074	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/api	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000042917}
+[9to5] 2023/07/12 - 17:20:11.760	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/07/12 - 17:20:11.763	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/12 - 17:20:14.199	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/07/12 - 17:20:14.200	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:14	register swagger handler
+[9to5] 2023/07/12 - 17:20:25.585	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/api	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000156042}
+[9to5] 2023/07/12 - 17:20:27.242	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000079}
+[9to5] 2023/07/12 - 17:20:28.385	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000155167}
+[9to5] 2023/07/12 - 17:20:28.931	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000103625}
+[9to5] 2023/07/12 - 17:20:29.086	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36", "errors": "", "cost": 0.000030583}
+[9to5] 2023/07/12 - 17:21:04.281	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00007175}
+[9to5] 2023/07/12 - 17:21:12.209	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/api/base/captcha	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000001041}
+[9to5] 2023/07/12 - 17:22:27.875	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000875}
+[9to5] 2023/07/12 - 17:23:50.924	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000001167}
+[9to5] 2023/07/12 - 17:24:26.859	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/07/12 - 17:24:26.862	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/12 - 17:24:27.572	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/07/12 - 17:24:27.572	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:14	register swagger handler
+[9to5] 2023/07/12 - 17:24:31.622	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000006041}
+[9to5] 2023/07/12 - 17:25:03.116	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000875}
+[9to5] 2023/07/12 - 17:27:49.642	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000044125}
+[9to5] 2023/07/12 - 17:30:21.788	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000021917}
+[9to5] 2023/07/12 - 17:30:27.092	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/07/12 - 17:30:27.092	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/07/12 - 17:30:32.771	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/07/12 - 17:30:32.774	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/07/12 - 17:30:33.182	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 200, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00566225}
+[9to5] 2023/07/12 - 17:37:47.956	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/07/12 - 17:37:47.958	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting

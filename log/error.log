@@ -1,0 +1,15 @@
+[9to5] 2023/07/11 - 18:01:20.666	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:28	listen	{"error": "listen tcp 0.0.0.0:8888: bind: address already in use"}
+[9to5] 2023/07/12 - 14:05:06.642	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
+[9to5] 2023/07/12 - 14:05:06.643	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:18	mysql连接失败，退出程序
+[9to5] 2023/07/12 - 16:19:38.180	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
+[9to5] 2023/07/12 - 16:19:38.180	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
+[9to5] 2023/07/12 - 16:21:18.503	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
+[9to5] 2023/07/12 - 16:21:18.503	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
+[9to5] 2023/07/12 - 16:23:54.522	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
+[9to5] 2023/07/12 - 16:23:54.529	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
+[9to5] 2023/07/12 - 16:27:08.429	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
+[9to5] 2023/07/12 - 16:27:08.429	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
+[9to5] 2023/07/12 - 16:48:54.455	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
+[9to5] 2023/07/12 - 16:48:54.455	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
+[9to5] 2023/07/12 - 16:51:02.492	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
+[9to5] 2023/07/12 - 16:51:02.493	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
