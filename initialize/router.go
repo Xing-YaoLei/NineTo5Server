@@ -33,5 +33,6 @@ func Routers() *gin.Engine {
 	//{
 	//	systemRouter.InitUserRouter(PrivateGroup) // 注册用户路由
 	//}
+	global.NineTo5_LOG.Info("router register success")
 	return Router
 }

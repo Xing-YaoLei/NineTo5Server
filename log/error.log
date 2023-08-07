@@ -13,3 +13,4 @@
 [9to5] 2023/07/12 - 16:48:54.455	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
 [9to5] 2023/07/12 - 16:51:02.492	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:67	mysql连接失败	{"error": "dial tcp 124.222.251.9:3306: connect: operation timed out"}
 [9to5] 2023/07/12 - 16:51:02.493	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/main.go:17	mysql连接失败，退出程序
+[9to5] 2023/07/13 - 14:44:25.637	[31merror[0m	/Users/xingyaolei/Desktop/NineTo5Server/api/system/base.go:59	请求参数错误	{"error": "Key: 'Login.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'Login.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'Login.Captcha' Error:Field validation for 'Captcha' failed on the 'required' tag\nKey: 'Login.CaptchaId' Error:Field validation for 'CaptchaId' failed on the 'required' tag"}

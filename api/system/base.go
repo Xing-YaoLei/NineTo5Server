@@ -3,8 +3,10 @@ package system
 import (
 	"NineTo5Server/global"
 	"NineTo5Server/model/common/response"
+	systemReq "NineTo5Server/model/system/request"
 	systemRes "NineTo5Server/model/system/response"
 	"github.com/gin-gonic/gin"
+	"github.com/go-playground/validator/v10"
 	"github.com/mojocn/base64Captcha"
 	"go.uber.org/zap"
 )
@@ -38,4 +40,32 @@ func (ba *BaseApi) Captcha(c *gin.Context) {
 		PicPath:       b64s,
 		CaptchaLength: global.NineTo5_CONFIG.Captcha.KeyLong,
 	}, "验证码获取成功", c)
+}
+
+// Login
+// @Tags      Base
+// @Summary   用户登录
+// @Produce   application/json
+// @Success   200  {object}  responseResponse{data=string,msg=string}  "登录成功"
+// @Router    /base/login [post]
+func (ba *BaseApi) Login(c *gin.Context) {
+	// TODO
+	var login systemReq.Login
+	_ = c.ShouldBindJSON(&login)
+	validate := validator.New()
+	// 校验数据
+	if err := validate.Struct(&login); err != nil {
+		response.FailWithMessage("请求参数错误", c)
+		global.NineTo5_LOG.Error("请求参数错误", zap.Error(err))
+		return
+	}
+
+	if store.Verify(login.CaptchaId, login.Captcha, true) {
+		// TODO
+		response.OkWithMessage("登录成功", c)
+	} else {
+		response.FailWithMessage("验证码错误", c)
+		return
+	}
+
 }
