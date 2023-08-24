@@ -84,3 +84,429 @@
 [9to5] 2023/07/13 - 14:44:25.638	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/login	{"status": 200, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.002710333}
 [9to5] 2023/07/17 - 11:01:22.165	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
 [9to5] 2023/07/17 - 11:01:22.171	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 16:52:17.804	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 16:52:17.813	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 16:52:17.815	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:36	router register success
+[9to5] 2023/08/23 - 16:52:53.792	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/api/v1/health	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000792}
+[9to5] 2023/08/23 - 16:54:48.847	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/health	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00033725}
+[9to5] 2023/08/23 - 16:55:40.500	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000542}
+[9to5] 2023/08/23 - 16:55:46.323	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/api/v1/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.0000005}
+[9to5] 2023/08/23 - 16:56:05.789	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00000025}
+[9to5] 2023/08/23 - 16:56:36.794	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.000233833}
+[9to5] 2023/08/23 - 16:56:36.883	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/favicon.ico	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.000000542}
+[9to5] 2023/08/23 - 16:56:39.710	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/blog	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.00007425}
+[9to5] 2023/08/23 - 16:56:42.071	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/base	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.000274083}
+[9to5] 2023/08/23 - 16:56:43.552	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/login	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.000039708}
+[9to5] 2023/08/23 - 16:56:45.879	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/swagger/login	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.000037125}
+[9to5] 2023/08/23 - 16:57:12.191	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00000025}
+[9to5] 2023/08/23 - 16:58:23.285	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/api/base/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.0000005}
+[9to5] 2023/08/23 - 16:58:28.828	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/api/v1/base/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00000075}
+[9to5] 2023/08/23 - 16:58:32.886	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000583}
+[9to5] 2023/08/23 - 16:58:36.366	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00000025}
+[9to5] 2023/08/23 - 16:59:30.774	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000708}
+[9to5] 2023/08/23 - 17:01:38.629	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00000725}
+[9to5] 2023/08/23 - 17:01:41.131	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 200, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.006166416}
+[9to5] 2023/08/23 - 17:01:58.595	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000541}
+[9to5] 2023/08/23 - 17:02:13.589	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000542}
+[9to5] 2023/08/23 - 17:03:02.123	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList/	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000542}
+[9to5] 2023/08/23 - 17:03:04.438	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000833}
+[9to5] 2023/08/23 - 17:03:06.333	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000709}
+[9to5] 2023/08/23 - 17:03:08.693	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000541}
+[9to5] 2023/08/23 - 17:05:20.682	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:05:20.684	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:05:23.204	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:05:23.205	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:05:23.205	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:36	router register success
+[9to5] 2023/08/23 - 17:05:26.568	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000708}
+[9to5] 2023/08/23 - 17:06:42.523	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.00000025}
+[9to5] 2023/08/23 - 17:06:46.237	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:06:46.237	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:06:48.774	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:06:48.774	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:06:48.775	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:36	router register success
+[9to5] 2023/08/23 - 17:06:52.668	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000584}
+[9to5] 2023/08/23 - 17:07:47.159	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:07:47.160	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:07:49.724	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:07:49.725	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:07:49.725	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:36	router register success
+[9to5] 2023/08/23 - 17:10:19.584	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000791}
+[9to5] 2023/08/23 - 17:10:22.011	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000791}
+[9to5] 2023/08/23 - 17:10:23.947	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000958}
+[9to5] 2023/08/23 - 17:13:27.721	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:13:27.722	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:13:29.581	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:13:29.581	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:13:29.581	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:36	router register success
+[9to5] 2023/08/23 - 17:13:36.231	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000791}
+[9to5] 2023/08/23 - 17:13:49.449	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/capchat	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000542}
+[9to5] 2023/08/23 - 17:13:51.458	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/capchat	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000667}
+[9to5] 2023/08/23 - 17:14:13.108	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/captcha	{"status": 200, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.005082459}
+[9to5] 2023/08/23 - 17:14:28.291	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/base/login	{"status": 200, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000534583}
+[9to5] 2023/08/23 - 17:15:00.833	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getbloglist	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000583}
+[9to5] 2023/08/23 - 17:15:42.672	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:15:42.674	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:15:45.320	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:15:45.321	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:15:45.321	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:36	router register success
+[9to5] 2023/08/23 - 17:15:53.202	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getbloglist	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000583}
+[9to5] 2023/08/23 - 17:16:03.831	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000583}
+[9to5] 2023/08/23 - 17:19:13.562	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000057583}
+[9to5] 2023/08/23 - 17:19:16.720	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:19:16.720	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:19:19.290	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:19:19.291	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:19:19.291	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:36	router register success
+[9to5] 2023/08/23 - 17:19:22.407	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000667}
+[9to5] 2023/08/23 - 17:20:45.689	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "POST", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000917}
+[9to5] 2023/08/23 - 17:20:48.004	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 404, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.000000875}
+[9to5] 2023/08/23 - 17:26:48.399	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:26:48.400	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:26:50.914	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:26:50.914	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:26:50.914	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:37	router register success
+[9to5] 2023/08/23 - 17:26:56.981	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.002111625}
+[9to5] 2023/08/23 - 17:30:01.973	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.002737792}
+[9to5] 2023/08/23 - 17:30:06.238	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:30:06.238	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:30:08.913	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/23 - 17:30:08.914	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:30:08.914	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:30:15.395	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Error 1146 (42S02): Table 'go-server.sys_blog' doesn't exist
+[10.477ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:30:15.395	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.01068075}
+[9to5] 2023/08/23 - 17:34:36.036	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:34:36.036	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:34:38.951	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 17:34:38.952	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:34:38.953	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:34:46.236	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[10.841ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:34:46.236	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011377417}
+[9to5] 2023/08/23 - 17:37:55.772	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:37:55.775	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:37:57.083	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 17:37:57.083	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:37:57.083	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:38:03.312	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[8.127ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:38:03.314	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.009545042}
+[9to5] 2023/08/23 - 17:44:08.294	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[7.116ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:44:08.295	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.008520167}
+[9to5] 2023/08/23 - 17:47:21.781	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:47:21.784	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:47:25.028	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 17:47:25.029	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:47:25.029	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:47:27.889	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[9.287ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:47:27.889	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.009827292}
+[9to5] 2023/08/23 - 17:47:29.461	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[12.279ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:47:29.462	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.012659458}
+[9to5] 2023/08/23 - 17:52:43.003	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:52:43.004	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:52:46.271	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 17:52:46.272	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:52:46.272	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:52:51.379	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[12.171ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:52:51.380	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.012571333}
+[9to5] 2023/08/23 - 17:52:53.501	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[12.593ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:52:53.501	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.012880375}
+[9to5] 2023/08/23 - 17:52:53.812	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[14.104ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:52:53.812	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.014321833}
+[9to5] 2023/08/23 - 17:52:54.268	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[12.145ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:52:54.268	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.012311833}
+[9to5] 2023/08/23 - 17:52:54.544	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[7.994ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:52:54.544	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.008627875}
+[9to5] 2023/08/23 - 17:52:54.843	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[8.834ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:52:54.843	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.009085458}
+[9to5] 2023/08/23 - 17:54:42.301	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:54:42.302	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:54:45.158	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 17:54:45.158	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:54:45.159	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:54:48.661	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[11.343ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:54:48.661	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011836667}
+[9to5] 2023/08/23 - 17:54:50.526	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[10.633ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:54:50.526	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.010854833}
+[9to5] 2023/08/23 - 17:56:01.184	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:56:01.185	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:56:03.785	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 17:56:03.786	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:56:03.786	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:56:09.238	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[10.204ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:56:09.239	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011047333}
+[9to5] 2023/08/23 - 17:56:14.222	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[8.277ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:56:14.224	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.010587375}
+[9to5] 2023/08/23 - 17:56:16.456	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[7.322ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:56:16.456	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.007694541}
+[9to5] 2023/08/23 - 17:56:36.523	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:56:36.523	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:56:39.269	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 17:56:39.271	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:56:39.271	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:56:41.253	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[10.918ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:56:41.253	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.011145542}
+[9to5] 2023/08/23 - 17:56:42.212	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[11.568ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:56:42.212	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", "errors": "", "cost": 0.012205667}
+[9to5] 2023/08/23 - 17:58:26.480	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 17:58:26.482	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 17:58:29.053	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:92	register table success
+[9to5] 2023/08/23 - 17:58:29.054	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 17:58:29.054	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 17:58:35.339	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema Blog
+[14.383ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 17:58:35.340	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.014984584}
+[9to5] 2023/08/23 - 18:01:49.775	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 18:01:49.776	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 18:02:06.835	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:92	register table success
+[9to5] 2023/08/23 - 18:02:06.836	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 18:02:06.836	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 18:02:18.896	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Error 1146 (42S02): Table 'go-server.sys_blog' doesn't exist
+[14.275ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 18:02:18.898	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.016178}
+[9to5] 2023/08/23 - 18:02:41.858	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 18:02:41.860	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 18:02:44.588	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 18:02:44.589	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 18:02:44.589	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 18:02:47.164	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[10.788ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 18:02:47.165	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011309625}
+[9to5] 2023/08/23 - 18:04:46.005	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 18:04:46.009	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 18:04:48.326	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:92	register table success
+[9to5] 2023/08/23 - 18:04:48.327	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 18:04:48.327	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 18:04:52.525	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:27	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Error 1146 (42S02): Table 'go-server.sys_blog' doesn't exist
+[9.548ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 18:04:52.525	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.010105833}
+[9to5] 2023/08/23 - 18:05:30.150	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 18:05:30.150	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 18:05:32.553	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 18:05:32.558	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 18:05:32.565	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 18:05:39.802	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[8.510ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 18:05:39.802	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.008816041}
+[9to5] 2023/08/23 - 18:08:03.024	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/23 - 18:08:03.026	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/23 - 18:08:07.653	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:08:07.713	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:09:25.202	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:09:25.270	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:09:56.368	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:09:56.514	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:10:22.950	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:10:23.120	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:80
+[error] failed to parse value system.BlogModel{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Title:"", Content:"", Description:"", Slug:"", Tags:[]system.Tag(nil), CategoryID:0x0, Category:system.Category{NineTo5_MODEL:global.NineTo5_MODEL{ID:0x0, CreatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), UpdatedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), DeletedAt:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC)}, Name:"", Blogs:[]system.BlogModel(nil)}, Comments:[]system.Comment(nil), Thumbnail:"", Status:0, MetaDescription:""}, got error invalid field found for struct NineTo5Server/model/system.BlogModel's field Comments: define a valid foreign key for relations or implement the Valuer/Scanner interface
+
+[9to5] 2023/08/23 - 18:12:42.221	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/23 - 18:12:42.223	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/23 - 18:12:42.223	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/23 - 18:12:46.205	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[20.146ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/23 - 18:12:46.205	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.020591708}
+[9to5] 2023/08/24 - 09:25:40.776	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:25:40.779	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:25:43.236	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/24 - 09:25:43.237	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:25:43.239	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:28:47.969	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[10.837ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:28:47.970	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011652542}
+[9to5] 2023/08/24 - 09:29:18.494	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:29:18.495	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:29:21.779	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/24 - 09:29:21.779	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:29:21.779	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:29:25.373	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[8.531ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:29:25.374	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.009084917}
+[9to5] 2023/08/24 - 09:30:57.526	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[10.861ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:30:57.527	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011166667}
+[9to5] 2023/08/24 - 09:30:59.307	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:30:59.307	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:31:02.646	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/24 - 09:31:02.648	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:31:02.649	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:31:05.257	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[12.002ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:31:05.257	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.012318791}
+[9to5] 2023/08/24 - 09:33:03.460	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:33:03.461	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:33:04.932	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/24 - 09:33:04.933	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:33:04.933	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:34:11.717	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[18.876ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:34:11.718	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.020368209}
+[9to5] 2023/08/24 - 09:49:27.213	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:49:27.216	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:49:30.650	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:93	register table success
+[9to5] 2023/08/24 - 09:49:30.651	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:49:30.651	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:50:04.342	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:50:04.342	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:50:06.633	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 09:50:06.635	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:50:06.636	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:50:09.928	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[9.103ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:50:09.929	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.010500125}
+[9to5] 2023/08/24 - 09:50:51.476	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:50:51.476	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:50:52.464	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 09:50:52.465	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:50:52.465	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:51:07.126	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[10.739ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:51:07.126	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011109458}
+[9to5] 2023/08/24 - 09:51:08.555	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[9.862ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:51:08.555	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.010175291}
+[9to5] 2023/08/24 - 09:52:04.171	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:52:04.172	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:52:07.737	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 09:52:07.737	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:52:07.737	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:52:11.254	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[9.197ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:52:11.254	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.009625542}
+[9to5] 2023/08/24 - 09:52:12.335	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[8.491ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:52:12.335	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.008696333}
+[9to5] 2023/08/24 - 09:54:01.484	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:54:01.486	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:54:03.099	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 09:54:03.100	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:54:03.101	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:54:07.339	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[7.891ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:54:07.341	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.009861709}
+[9to5] 2023/08/24 - 09:55:41.512	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:55:41.514	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:55:45.068	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 09:55:45.070	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:55:45.071	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:55:49.903	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[8.544ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:55:49.903	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.008777583}
+[9to5] 2023/08/24 - 09:58:14.627	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 09:58:14.628	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 09:58:18.150	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 09:58:18.151	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 09:58:18.152	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 09:58:39.261	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[15.364ms] [rows:0] SELECT * FROM `sys_blog`
+
+[9to5] 2023/08/24 - 09:58:39.262	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.016904708}
+[9to5] 2023/08/24 - 10:04:29.362	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 10:04:29.364	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 10:04:32.477	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 10:04:32.479	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 10:04:32.480	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 10:04:37.505	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[13.406ms] [rows:0] SELECT * FROM `sys_blog` WHERE `sys_blog`.`deleted_at` IS NULL
+
+[9to5] 2023/08/24 - 10:04:37.505	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.01402775}
+[9to5] 2023/08/24 - 10:05:38.767	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 10:05:38.769	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 10:05:39.650	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 10:05:39.650	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 10:05:39.650	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 10:05:44.419	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[16.032ms] [rows:0] SELECT * FROM `sys_blog` WHERE `sys_blog`.`deleted_at` IS NULL
+
+[9to5] 2023/08/24 - 10:05:44.419	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.016276167}
+[9to5] 2023/08/24 - 10:06:22.989	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 10:06:22.991	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 10:06:25.780	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 10:06:25.781	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 10:06:25.781	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 10:06:30.416	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:28	/Users/xingyaolei/Desktop/NineTo5Server/service/system/blog.go:12 Blog: unsupported relations for schema BlogModel
+[11.246ms] [rows:0] SELECT * FROM `sys_blog` WHERE `sys_blog`.`deleted_at` IS NULL
+
+[9to5] 2023/08/24 - 10:06:30.417	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.011948458}
+[9to5] 2023/08/24 - 10:11:11.541	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 10:11:11.541	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 10:11:14.283	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 10:11:14.284	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 10:11:14.285	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 10:11:17.786	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.015102625}
+[9to5] 2023/08/24 - 10:47:15.731	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 10:47:15.736	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting
+[9to5] 2023/08/24 - 10:47:18.961	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/gorm.go:91	register table success
+[9to5] 2023/08/24 - 10:47:18.962	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:15	register swagger handler
+[9to5] 2023/08/24 - 10:47:18.962	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/initialize/router.go:38	router register success
+[9to5] 2023/08/24 - 10:47:22.120	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.009831833}
+[9to5] 2023/08/24 - 10:48:59.746	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/middleware/log/access.go:19	/blog/getBlogList	{"status": 200, "method": "GET", "query": "", "ip": "::1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": 0.012682041}
+[9to5] 2023/08/24 - 10:49:02.258	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:37	Shutdown Server ...
+[9to5] 2023/08/24 - 10:49:02.259	[34minfo[0m	/Users/xingyaolei/Desktop/NineTo5Server/core/server.go:43	Server exiting

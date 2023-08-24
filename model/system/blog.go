@@ -1,40 +1,25 @@
 package system
 
+import "NineTo5Server/global"
+
 // Blog 博客
-type Blog struct {
-	ID      int    `json:"id" gorm:"primary_key:true;column:id;type:int(11);not null"`
-	Title   string `json:"title" gorm:"column:title;type:varchar(255);not null"`
-	Content string `json:"content" gorm:"column:content;type:longtext;not null"`
+type BlogModel struct {
+	global.NineTo5_MODEL
+	Title       string `json:"title" gorm:"column:title;type:varchar(255);not null"`
+	Content     string `json:"content" gorm:"column:content;type:longtext;not null"`
+	Description string `json:"description" gorm:"column:description;type:longtext;not null"`
 	//	其他字段
-	Tags     []Tag     `gorm:"many2many:blog_tags;"`
-	Category Category  `gorm:"ForeignKey:CategoryID;AssociationForeignKey:ID"`
-	Comments []Comment `gorm:"ForeignKey:BlogID;AssociationForeignKey:ID"`
-	//	发布状态
-	Status int `json:"status" gorm:"column:status;type:int(11);not null;default:0"`
+	Slug       string          `json:"slug" gorm:"column:slug;type:varchar(255);not null"`
+	Tags       []*TagModel     `gorm:"many2many:sys_blog_tags;"`
+	CategoryID uint            `gorm:"index"`
+	Category   CategoryModel   `gorm:"foreignKey:CategoryID;associationForeignKey:ID"`
+	Comments   []*CommentModel `gorm:"foreignKey:BlogID"`
+	// 缩略图
+	Thumbnail string `json:"thumbnail" gorm:"column:thumbnail;type:varchar(512)"`
+	// 元数据
+	MetaDescription string `json:"meta_description" gorm:"column:meta_description;type:varchar(512)"`
 }
 
-// Tag 标签
-type Tag struct {
-	ID   int    `json:"id" gorm:"primary_key:true;column:id;type:int(11);not null"`
-	Name string `json:"name" gorm:"column:name;type:varchar(255);not null"`
-	//	其他字段
-	Blogs []Blog `gorm:"many2many:blog_tags;"`
-}
-
-// Category 分类
-type Category struct {
-	ID   int    `json:"id" gorm:"primary_key:true;column:id;type:int(11);not null"`
-	Name string `json:"name" gorm:"column:name;type:varchar(255);not null"`
-	//	其他字段
-	Blogs []Blog `gorm:"ForeignKey:CategoryID;AssociationForeignKey:ID"`
-}
-
-// Comment 评论
-type Comment struct {
-	ID      int    `json:"id" gorm:"primary_key:true;column:id;type:int(11);not null"`
-	BlogID  int    `json:"blog_id" gorm:"column:blog_id;type:int(11);not null"`
-	Email   string `json:"email" gorm:"column:email;type:varchar(255);not null"`
-	Content string `json:"content" gorm:"column:content;type:longtext;not null"`
-	//	其他字段
-	Author string `json:"author" gorm:"column:author;type:varchar(255);not null"`
+func (BlogModel) TableName() string {
+	return "sys_blog"
 }

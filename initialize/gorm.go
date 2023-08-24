@@ -2,6 +2,7 @@ package initialize
 
 import (
 	"NineTo5Server/global"
+	"NineTo5Server/model/system"
 	"fmt"
 	"go.uber.org/zap"
 	"gorm.io/driver/mysql"
@@ -77,11 +78,10 @@ func Gorm() *gorm.DB {
 // RegisterTables 初始化数据库表
 func RegisterTables(db *gorm.DB) {
 	err := db.AutoMigrate(
-	//system.RoleModel{},
-	//system.UserModel{},
-	//system.MenuModel{},
-	//system.ApiModel{},
-	//system.JwtBlacklist{},
+		system.BlogModel{},
+		//system.CategoryModel{},
+		//system.TagModel{},
+		//system.CommentModel{},
 	)
 
 	if err != nil {

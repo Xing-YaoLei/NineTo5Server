@@ -25,7 +25,9 @@ func Routers() *gin.Engine {
 		})
 	}
 	{
-		systemRouter.InitBaseRouter(PublicGroup) // 注册基础功能路由 不做鉴权
+		// 注册基础功能路由 不做鉴权
+		systemRouter.InitBaseRouter(PublicGroup)
+		systemRouter.InitBlogRouter(PublicGroup)
 	}
 	// 下方为需要鉴权的路由 采用jwt鉴权 TODO 未实现
 	//PrivateGroup := Router.Group("")
